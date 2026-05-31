@@ -111,9 +111,9 @@ export default function Dashboard({ onLogout }: DashboardProps) {
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4">
           <div className="flex flex-wrap justify-between items-center gap-2">
             <div className="flex items-center space-x-2 sm:space-x-3 min-w-0">
-              <img src="/logo.png" alt="Logo" className="h-10 w-10 rounded-lg" />
+              <img src="/app-logo.png" alt="Logo" className="h-10 w-10 rounded-lg" />
               <div className="min-w-0">
-                <h1 className="text-base sm:text-xl font-semibold text-gray-900 truncate">Grade Portal</h1>
+                <h1 className="text-base sm:text-xl font-semibold text-gray-900 truncate">animarka</h1>
                 <p className="text-xs sm:text-sm text-gray-500">Academic Year 2025-2026</p>
               </div>
             </div>

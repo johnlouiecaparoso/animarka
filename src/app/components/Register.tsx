@@ -46,11 +46,11 @@ export default function Register() {
 
   if (registrationSuccess) {
     return (
-      <div className="min-h-screen flex items-center justify-center p-4" style={{ backgroundImage: 'url(/bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <Card className="w-full max-w-md">
+      <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
+        <Card className="w-full max-w-md shadow-lg">
           <CardHeader className="space-y-1 text-center">
             <div className="flex justify-center mb-4">
-              <img src="/logo.png" alt="Logo" className="h-12 w-12" />
+              <img src="/app-logo.png" alt="Logo" className="h-12 w-12" />
             </div>
             <CardTitle className="text-2xl">Account created successfully</CardTitle>
             <CardDescription>
@@ -72,7 +72,7 @@ export default function Register() {
               </Link>
             </p>
             <div className="text-xs text-center text-gray-500 pt-2 border-t w-full">
-              © Caraga State University 2026
+              © animarka 2026
             </div>
           </CardFooter>
         </Card>
@@ -81,11 +81,11 @@ export default function Register() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4" style={{ backgroundImage: 'url(/bg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <Card className="w-full max-w-md">
+    <div className="min-h-screen flex items-center justify-center p-4 bg-slate-50">
+      <Card className="w-full max-w-md shadow-lg">
         <CardHeader className="space-y-1 text-center">
           <div className="flex justify-center mb-4">
-            <img src="/logo.png" alt="Logo" className="h-12 w-12" />
+            <img src="/app-logo.png" alt="Logo" className="h-12 w-12" />
           </div>
           <CardTitle className="text-2xl">Create Account</CardTitle>
           <CardDescription>
@@ -116,7 +116,7 @@ export default function Register() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="student@college.edu"
+                  placeholder="student@animarka.edu"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="pl-9"
@@ -192,7 +192,7 @@ export default function Register() {
               </Link>
             </div>
             <div className="text-xs text-center text-gray-500 pt-2 border-t">
-              © Caraga State University 2026
+              © animarka 2026
             </div>
           </CardFooter>
         </form>

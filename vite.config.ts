@@ -12,11 +12,11 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['mobile-logo.png', 'logo.png', 'bg.jpg'],
+      includeAssets: ['app-logo.png', 'bg-image.jpg'],
       manifest: {
-        name: 'College Grade System App',
-        short_name: 'Grade System',
-        description: 'Track grades, subjects, and student performance.',
+        name: 'animarka',
+        short_name: 'animarka',
+        description: 'animarka - Track grades, subjects, and student performance.',
         theme_color: '#0b172a',
         background_color: '#f3f6fb',
         display: 'standalone',
@@ -24,10 +24,22 @@ export default defineConfig({
         scope: '/',
         icons: [
           {
-            src: 'mobile-logo.png',
-            sizes: '192x192 512x512',
+            src: 'app-logo.png',
+            sizes: '192x192',
             type: 'image/png',
             purpose: 'any',
+          },
+          {
+            src: 'app-logo.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: 'app-logo.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
           },
         ],
       },
